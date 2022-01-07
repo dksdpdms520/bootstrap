@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+    <title>06_그리드의 다양한 옵션 활용</title>
+
+    <!-- 부트스트랩 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
+    <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      @media (min-width: 768px) and (max-width: 991px) {
+        #side{
+          height: 340px;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 bg-info text-center text-uppercase img-rounded">
+          <h1 class="text-muted">good soup restaurant</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 col-sm-4 bg-danger img-rounded col-md-push-10" id="side">
+          <ul class="list-unstyled text-center">
+            <li><a href="#">pasta</a></li>
+            <li><a href="#">pizza</a></li>
+            <li><a href="#">salad</a></li>
+            <li><a href="#">drink</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-6 img-rounded col-md-offset-1 col-sm-offset-2">
+          <div class="row">
+            <div class="col-lg-6 bg-success">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora impedit dicta earum magnam ratione enim amet quasi fugit tempore, sapiente commodi, minus nam, suscipit molestiae repudiandae, at molestias. Ad, eligendi!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo provident numquam nobis voluptatem, dolorem deserunt, soluta tempora. Illum maxime cum deleniti nobis dolorum quod placeat totam consequatur harum ipsum.</p>
+            </div>
+            <div class="col-lg-6 bg-warning">
+             <div class="row">
+               <div class="col-lg-12 bg-warning">
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque mollitia, ut. Cumque dolore numquam quasi architecto, suscipit? Numquam pariatur eos, est id reiciendis? Dicta ut, iure ratione sapiente maiores libero?.</p>
+               </div>
+               <div class="col-lg-12 bg-primary">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Commodi illo qui reiciendis hic sed deleniti, at aliquid quidem dolorem excepturi quibusdam quos ratione vel! Perferendis ab iusto assumenda sint vel?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-12 bg-primary img-rounded col-md-offset-1 col-md-pull-10">
+        <ul class="list-unstyled text-center">
+          <li>main chef members</li>
+          <li>Sam</li>
+          <li>Jun</li>
+          <li>Tim</li>
+          <li>Jae</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3>Thank you.</h3>
+      </div>
+    </div>
+  </div>
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
